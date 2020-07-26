@@ -1,0 +1,33 @@
+/* .landing-div {
+    background: url('../assets/matches.png');
+    height: 100vh;
+}
+
+.content-div {
+    height: 100vh;
+}
+
+.para */
+
+
+.landing-div {
+    background: url('../assets/matches.png') 100%;
+    height: 100vh;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.bottom-div {
+    border: blue solid;
+    height: 100vh;
+}
+
+.para {
+    border: red solid; 
+    height: 100vh;
+}
+
+.paraInner {
+    padding: 500px;
+}
