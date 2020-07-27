@@ -27,10 +27,18 @@
 }
 
 .content-div {
-    position: sticky;
-    bottom: 0;
     height: 100vh;
     border: blue solid;
     text-align: left;
     /* background: green; */
 }
+<<<<<<< HEAD
+=======
+
+.landing-div {
+    position: sticky;
+    bottom: 0;
+    border: red solid;
+    height: 100vh;
+}
+>>>>>>> parent of efa239a... FINALLY FIGURED OUT PARALLAX

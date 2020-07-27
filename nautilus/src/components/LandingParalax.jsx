@@ -25,6 +25,12 @@ export default class LandingParalax extends React.Component {
                 <div className='landing-div'>
                     LANDING
                 </div>
+<<<<<<< HEAD
+=======
+                <div className='landing-div'>
+                    LANDING
+                </div>
+>>>>>>> parent of efa239a... FINALLY FIGURED OUT PARALLAX
                 {/* <div className="bottom-div">
                     This is the bottom div
                 </div> */}
