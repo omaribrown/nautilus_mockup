@@ -19,26 +19,27 @@
     position: sticky;
 } */
 
-.landing-div {
-    border: red solid;
-    /* position: absolute; */
-    height: 100vh;
-    background: red;
-}
-
 .content-div {
-    height: 100vh;
-    border: blue solid;
-    text-align: left;
-    /* background: green; */
-}
-<<<<<<< HEAD
-=======
-
-.landing-div {
     position: sticky;
     bottom: 0;
+    height: 100vh;
+    border: blue solid;
+    /* text-align: center; */
+    /* background: green; */
+}
+
+.landing-div {
     border: red solid;
     height: 100vh;
+    background: url(../assets/matches.png) 100%;
+    background-size: 100%;
+    text-align: center;
 }
->>>>>>> parent of efa239a... FINALLY FIGURED OUT PARALLAX
+
+.landing-content {
+    padding-top: 10em;
+}
+.landing-scroll {
+    padding-top: 15em;
+    right: auto;
+}

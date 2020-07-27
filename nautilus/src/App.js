@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './components/NavBar'
+import LandingParalax from './components/LandingParalax';
 
 function App() {
   return (
     <div className="App">
-       <NavBar />
+       <LandingParalax />
     </div>
   );
 }

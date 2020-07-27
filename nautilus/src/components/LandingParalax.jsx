@@ -1,36 +1,30 @@
 import React from 'react'
-import './Styles/LandingParalax.css'
 import arrow from './assets/arrow2.png'
+import './Styles/LandingParalax.css'
 
 export default class LandingParalax extends React.Component {
     render() {
         return (
             <div>
-                {/* <div className="landing-div">
-                    this is the top div
-                </div>
-                <div className="para">
-                    <div className="paraInner">
-                        <div className="window">
-                            <h1>fixed text</h1>
-                        </div>
+                <div className='landing-div'>
+                    <div className='landing-content'>
+                        <h4>Issue 079</h4>
+                        <h1>Catalyst</h1>
+                        <p>Agents of change</p>
+                        <a href='#'><strong>Read More</strong></a>
+                        <br />
+                        <button>SEE FULL ISSUE</button>
                     </div>
-                </div> */}
-
+                    <div className='landing-scroll'>
+                        <img src={arrow} />
+                        <br />
+                        <a href='#'>SCROLL DOWN</a>
+                    </div>
+                </div>
                 <div className='content-div'>
-                    <div className='content-inner'>
-                        stuff
-                    </div>
+                    CONTENT
                 </div>
-                <div className='landing-div'>
-                    LANDING
-                </div>
-<<<<<<< HEAD
-=======
-                <div className='landing-div'>
-                    LANDING
-                </div>
->>>>>>> parent of efa239a... FINALLY FIGURED OUT PARALLAX
+
                 {/* <div className="bottom-div">
                     This is the bottom div
                 </div> */}
