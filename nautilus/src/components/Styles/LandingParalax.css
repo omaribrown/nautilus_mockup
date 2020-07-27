@@ -1,35 +1,10 @@
-/* 
-.landing-div {
-    border: red solid; 
-    height: 100vh;
-} */
-
-/* .bottom-div {
-    border: blue solid;
-    height: 100vh;
-} */
-/* 
-.para {
-    background: url("../assets/matches.png") 100% fixed;
-
-}
-
-.paraInner {
-    padding: 500px;
-    position: sticky;
-} */
-
 .content-div {
     position: sticky;
     bottom: 0;
     height: 100vh;
-    border: blue solid;
-    /* text-align: center; */
-    /* background: green; */
 }
 
 .landing-div {
-    border: red solid;
     height: 100vh;
     background: url(../assets/matches.png) 100%;
     background-size: 100%;

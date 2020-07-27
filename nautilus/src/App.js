@@ -4,7 +4,7 @@ import LandingParalax from './components/LandingParalax';
 function App() {
   return (
     <div className="App">
-       <LandingParalax />
+      <LandingParalax />
     </div>
   );
 }
