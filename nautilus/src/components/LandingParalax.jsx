@@ -10,7 +10,9 @@ export default class LandingParalax extends React.Component {
                     LANDING
                 </div>
                 <div className='content-div'>
-                    CONTENT
+                    <div className='content-inner'>
+                        stuff
+                    </div>
                 </div>
             </div>
         )

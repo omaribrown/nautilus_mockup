@@ -19,15 +19,18 @@
     position: sticky;
 } */
 
+.landing-div {
+    border: red solid;
+    /* position: absolute; */
+    height: 100vh;
+    background: red;
+}
+
 .content-div {
     position: sticky;
     bottom: 0;
     height: 100vh;
     border: blue solid;
     text-align: left;
-}
-
-.landing-div {
-    border: red solid;
-    height: 100vh;
+    /* background: green; */
 }
